@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: "맑은 고딕", "돋움";
+  font-size : 100%;
+  color: ##323232;
+  background-color: #f4f8fb;
+}
+a:link {
+  color:#323232;
+  text-decoration:none;
+}
+a:hover {
+  color:#fb7d77;
+}

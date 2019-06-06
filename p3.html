@@ -1,0 +1,223 @@
+<!DOCTYPE html> <!--21761119_조예니-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="p4.css">
+    <title>UIUX</title>
+    <style media="screen">
+      [class*="c_"] {
+        float:left;
+        padding: 10px;
+      }
+      /*너비가 600픽셀을 미만인 스마트폰을 위한 기본 설정*/
+      [class*="c_"] {
+        width: 100%;
+      }
+      /*너비가 600픽셀 이상인 태블릿을 위한 설정*/
+      @media only screen and (min-width:600px) {
+        .c_m_1{width:8.33%;}
+        .c_m_2{width:16.66%;}
+        .c_m_3{width:25%;}
+        .c_m_4{width:33.33%;}
+        .c_m_5{width:41.66%;}
+        .c_m_6{width:50%;}
+        .c_m_7{width:58.33%;}
+        .c_m_8{width:66.66%;}
+        .c_m_9{width:75%;}
+        .c_m_10{width:83.33%;}
+        .c_m_11{width:91.66%;}
+        .c_m_12{width:100%;}
+      }
+
+      /*너비가 960픽셀을 초과하는 데스크톱 컴퓨터 등*/
+      @media only screen and (min-width:960px) {
+        .c_1{width:8.33%;}
+        .c_2{width:16.66%;}
+        .c_3{width:25%;}
+        .c_4{width:33.33%;}
+        .c_5{width:41.66%;}
+        .c_6{width:50%;}
+        .c_7{width:58.33%;}
+        .c_8{width:66.66%;}
+        .c_9{width:75%;}
+        .c_10{width:83.33%;}
+        .c_11{width:91.66%;}
+        .c_12{width:100%;}
+      }
+      header {
+        height: 170px;
+        padding:20px;
+        background-color: #f4f8fb;
+      }
+      #mm {
+        margin-top: 100px;
+
+      }
+      aside {
+        margin-bottom: 100px;
+      }
+      aside img {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+
+      footer {
+        height: 60px;
+        padding: 10px;
+        clear: both;
+        text-align:center;
+        background-color: #dcdcdc;
+      }
+      
+      h4 {
+        color: #323232;
+      }
+      h1 {
+        color: #323232;
+      }
+      #nav {
+        position: absolute;
+        float: left;
+        font-size: 16px;
+        color:#000000;
+        margin-top: 20px;
+      }
+      #nav li {
+        display: inline;
+        margin-left: 25px;
+        margin-right: 50px;
+      }
+      #nav img {
+        width: 20px;
+      }
+      #pro img{
+        width: 10%;
+        display: block;
+        margin-top: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #text {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 300px;
+      }
+      #head {
+        margin-top: 100px;
+      }
+      .clear {
+        clear: both;
+      }
+      #mmp {
+        text-align: center;
+        margin-top: 20px;
+      }
+      table {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      table, th, td, tr {
+        border: solid 20px #f4f8fb;
+        border-collapse: collapse;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      th {
+        color: #000000;
+        background-color: #ffffff;
+      }
+      #vv {
+        background-color: #fb7d77;
+      }
+      td {
+        background-color: #ffffff;
+      }
+      #pp img {
+        width: 350px;
+      }
+      #navt {
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header >
+      <div>
+        <ul>
+          <li><img src="./img/logo.png"></li>
+        </ul>
+      </div>
+    </header>
+
+    <div id="nav" class="c_12 c_m_12">
+      <ul>
+        <li><a href="index.html"> <img src="./img/navb.png">Main</a></li>
+        <li><a href="p1.html"> <img src="./img/navb.png">V.C</a></li>
+        <li><a href="p3.html"> <img src="./img/navb.png">U.U</a></li>
+        <li><a href="p2.html"> <img src="./img/navb.png">P.S</a></li>
+      </ul>
+    </div>
+
+    <a id="navt" style="display:scroll;position:fixed;bottom:50px;right:50px;" href="#" title="맨 위로">Top</a>
+
+
+    <div id="head">
+        <img src="./img/headu.png" width="100%">
+    </div>
+
+    <aside class="c_m_12 c_12">
+      <table>
+        <td id="pp"><img src="./img/mm1.jpg"></td>
+        <th>● 아이디어스 어플을 리디자인했다. <br> 카드 형식의 디자인으로 쇼핑몰의 여러 물품들을 한 화면에 두어도 난잡하지 않게 만들려 노력했다.</th>
+      </table>
+    </aside>
+
+      <div class="clear">  </div>
+
+      <aside class="c_m_12 c_12">
+        <table>
+          <th>● 상품 페이지부터 카테고리 페이지, 마이 페이지를 담아내었다. <br> 아이콘으로 카테고리를 쉽게 나타내고 같은 카드형식으로 최근 본 상품을 볼 수 있게 정렬했다.</th>
+          <td id="pp"><img src="./img/mm2.jpg"></td>
+        </table>
+      </aside>
+
+      <div class="clear">  </div>
+
+      <aside class="c_m_12 c_12">
+        <table>
+            <td id="pp"><img src="./img/mm3.png"</td>
+            <th>● 배달의 민족 아이콘을 리디자인했다. 배민 아이콘의 로고부터 머핀, 도시락을 목업해본 모습이다.</th>
+        </table>
+      </aside>
+
+      <div class="clear">  </div>
+
+
+    <aside class="c_m_12 c_12">
+      <table>
+        <th>● 원래는 어중간한 입체 디자인이었기에 깔끔하고 평면적인 이미지로 바꾸어서 표현했다.</th>
+        <td id="pp"><img src="./img/mm4.png"></td>
+      </table>
+    </aside>
+
+    <div class="c_m_12 c_12">
+      <img src="./img/mm5.png" width="100%">
+    </div>
+    <div id="mmp" class="c_m_12 c_12">
+      <p>배민에 나오는 음식들과 로고를 아이콘 작업을 했다. <br> 음식이다보니 여러색을 넣어도 어색하지 않게 했다. 중간중간 검은 선이 없이 비워서 차별화를 주었다.
+      <br> <br> <br> <br> <br> <br> </p>
+
+
+
+    <footer class="c_12">
+      JOYENI China Travle.
+    </footer>
+  </body>
+</html>

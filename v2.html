@@ -1,0 +1,259 @@
+<!DOCTYPE html> <!--21761119_조예니-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="p4.css">
+    <title>비주얼커뮤니케이션</title>
+    <style media="screen">
+
+      [class*="c_"] {
+        float:left;
+        padding: 10px;
+      }
+      /*너비가 600픽셀을 미만인 스마트폰을 위한 기본 설정*/
+      [class*="c_"] {
+        width: 100%;
+      }
+      /*너비가 600픽셀 이상인 태블릿을 위한 설정*/
+      @media only screen and (min-width:600px) {
+        .c_m_1{width:8.33%;}
+        .c_m_2{width:16.66%;}
+        .c_m_3{width:25%;}
+        .c_m_4{width:33.33%;}
+        .c_m_5{width:41.66%;}
+        .c_m_6{width:50%;}
+        .c_m_7{width:58.33%;}
+        .c_m_8{width:66.66%;}
+        .c_m_9{width:75%;}
+        .c_m_10{width:83.33%;}
+        .c_m_11{width:91.66%;}
+        .c_m_12{width:100%;}
+      }
+
+      /*너비가 960픽셀을 초과하는 데스크톱 컴퓨터 등*/
+      @media only screen and (min-width:960px) {
+        .c_1{width:8.33%;}
+        .c_2{width:16.66%;}
+        .c_3{width:25%;}
+        .c_4{width:33.33%;}
+        .c_5{width:41.66%;}
+        .c_6{width:50%;}
+        .c_7{width:58.33%;}
+        .c_8{width:66.66%;}
+        .c_9{width:75%;}
+        .c_10{width:83.33%;}
+        .c_11{width:91.66%;}
+        .c_12{width:100%;}
+      }
+      header {
+        height: 170px;
+        padding:20px;
+        background-color: #f4f8fb;
+      }
+      aside {
+        margin-bottom: 100px;
+      }
+      aside img {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      section#main {
+        padding: 15px;
+      }
+      section#main p {
+        padding:5px;
+        font-size:0.95em;
+        line-height:130%;
+      }
+      footer {
+        height: 60px;
+        padding: 10px;
+        clear: both;
+        text-align:center;
+        background-color: #dcdcdc;
+      }
+    
+      h4 {
+        color: #323232;
+      }
+      h1 {
+        color: #323232;
+      }
+      #nav {
+        position: absolute;
+        float: left;
+        font-size: 16px;
+        color:#000000;
+        margin-top: 20px;
+      }
+      #nav li {
+        display: inline;
+        margin-left: 25px;
+        margin-right: 50px;
+      }
+      #nav img {
+        width: 20px;
+      }
+      #pro img{
+        width: 10%;
+        display: block;
+        margin-top: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #text {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 300px;
+      }
+      #head {
+        margin-top: 100px;
+      }
+      .clear {
+        clear: both;
+      }
+      #title {
+        width:572px;
+
+        padding:10px;
+        border:solid 5px #fb7d77;
+        margin: 30px 30px 30px 30px;
+        font-size: 18px;
+        color:#ffffff;
+        font-weight:bold;
+        text-align: center;
+      }
+      #main_img {
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      #thumnail {
+        padding:30px 0 0 70px;
+      }
+      #thumnail #bt_left {
+        float:left;
+        margin:20px 5px 0 40px;
+      }
+      #thumnail #photos {
+        float:left;
+        margin: 3px 0 0 0;
+      }
+      #thumnail #bt_right {
+        float:left;
+        margin: 20px 0 0 20px;
+      }
+      #thumnail #photos li {
+        display: inline;
+        margin-left:10px;
+      }
+      #thumnail #photos img {
+        border:solid 5px #3d3d3d;
+      }
+      #thumnail #photos a:hover img {
+        border:solid 5px #fb7d77;
+      }
+      #right {
+        width: 650px;
+        height: 900px;
+        display: block;
+        margin-top: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        background-color:#000000;
+      }
+
+      #addtext {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #f4f8fb;
+
+      }
+      table, th, td, tr {
+        border: solid 20px #f4f8fb;
+        border-collapse: collapse;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      th {
+        color: #000000;
+        background-color: #ffffff;
+      }
+      #vv {
+        background-color: #fb7d77;
+      }
+      td {
+        background-color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="c12">
+      <div>
+        <ul>
+          <li><img src="./img/logo.png"></li>
+        </ul>
+      </div>
+    </header>
+
+    <div id="nav" class="c_12 c_m_12">
+      <ul>
+        <li><a href="index.html"> <img src="./img/navb.png">Main</a></li>
+        <li><a href="p1.html"> <img src="./img/navb.png">V.C</a></li>
+        <li><a href="p3.html"> <img src="./img/navb.png">U.U</a></li>
+        <li><a href="p2.html"> <img src="./img/navb.png">P.S</a></li>
+      </ul>
+    </div>
+
+    <div id="head">
+        <img src="./img/headv.png" width="100%">
+    </div>
+    <div id="text">
+      <p>비주얼 커뮤니케이션에선 디자인은 필살기가 아니다, 복잡한 것보단 단순한 통일성이 낫다는 말을 들으며 수업에 집중했다. <br> 비주얼 커뮤니케이션은 디자인에 대한 기본기와 서체의 중요성을 알려주는 수업이었다.</p>
+    </div>
+    <div id="right">
+        <div id="title">
+          Visual Communication - GAME2
+        </div>
+        <img id="main_img" src="./img/v2.jpg">
+        <div id="thumnail">
+          <img id="bt_left" src="./img/bt_left.png">
+          <ul id="photos">
+            <li><a href="p1.html"><img src="./img/v11.jpg"></a></li>
+            <li><a href="v2.html"><img src="./img/v22.jpg"></a></li>
+            <li><a href="v3.html"><img src="./img/v33.jpg"></a></li>
+            <li><a href="v4.html"><img src="./img/v44.jpg"></a></li>
+            <li><a href="v5.html"><img src="./img/v55.jpg"></a></li>
+          </ul>
+          <img id="bt_right" src="./img/bt_right.png">
+        </div>
+    </div>
+
+    <table id="addtext">
+      <th>GAME1</th>
+      <th id="vv">GAME2</th>
+      <th>GAME3</th>
+      <th>A Call</th>
+      <th>Meeting</th>
+      <tr>
+        <td>GAME1은 처음에 쉬운 난이도에서 시작하는 게임처럼 각지고 단순한 형태의 시작을 보여주고 있다.</td>
+        <td>GAME2는 게임의 중간 부분은 결국 끝과 연결되기 때문에 세 그림을 세로로 연결하면 곡선이 1과 3을 연결시키고 있으며 네모난 도형들이 점점 둥글게 변해가 끝과 비슷해지고 있음을 알린다.</td>
+        <td>GAME3은 끝내 다 둥글어져 게임에서도 마침내 모든 것을 클리어하여 완벽해지는 게임 캐릭터가 있듯이 이제 완벽한 형태가 되었음을 알린다.</td>
+        <td>미지의 공간에 있는 나를 부르는 손짓처럼 표현하였고 그렇기에 파란색과 보라색을 사용하여 환상적인 느낌을 주었다.</td>
+        <td>끝내 나를 만났으나 결국 나는 나였기에 가장 친근한 존재를 만났음을 알리고 싶어 자연의 초록색과 친화적인 색깔인 주황을 사용하였다.</td>
+      </tr>
+    </table>
+
+    <footer class="c_12">
+      JOYENI China Travle.
+    </footer>
+  </body>
+</html>
